@@ -1,0 +1,24 @@
+body{
+		background-repeat: no-repeat;
+		margin:1em auto;
+		max-width:40em;
+		padding:0 .62em;
+		line-height:1.4;
+		font-family: Baskerville, Garamond, Palatino, "Palatino Linotype", "Hoefler Text", "Times New Roman", serif;
+		font-size: 20px;
+}
+	
+h1,h2,h3 {
+    line-height:1.1;
+}
+
+a {
+    color: #CC0000;
+    text-decoration: none;
+}
+
+@media print{
+    body{
+        max-width:none
+    }
+}
